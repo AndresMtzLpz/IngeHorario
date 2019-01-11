@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        tools:context=".Table">
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:id="@+id/txt"
+            android:text="@string/titulo"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/color2"
+
+    />
+
+    <TableRow
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="@color/color1">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Materia"
+                android:textColor="@color/blanco"
+                android:layout_weight="2"
+                android:id="@+id/Materia"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Créditos"
+                android:textColor="@color/blanco"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/Creditos"
+        />
+    </TableRow>
+
+    <TableRow
+            android:layout_margin="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Circuitos eléctricos"
+                android:textColor="@color/color3"
+                android:layout_weight="2"
+                android:id="@+id/Materia1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="6"
+                android:textColor="@color/color3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/Credito1"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_margin="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Administracion de Proyectos"
+                android:textColor="@color/color3"
+                android:layout_weight="2"
+                android:id="@+id/Materia2"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="4"
+                android:textColor="@color/color3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/Credito2"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_margin="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Base de Datos"
+                android:textColor="@color/color3"
+                android:layout_weight="2"
+                android:id="@+id/Materia3"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="6"
+                android:textColor="@color/color3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/Credito3"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_margin="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Sistemas Operativos"
+                android:textColor="@color/color3"
+                android:layout_weight="2"
+                android:id="@+id/Materia4"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="4"
+                android:textColor="@color/color3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/Credito4"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_margin="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="Total"
+                android:textColor="@color/color3"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:id="@+id/Total"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="20"
+                android:textColor="@color/color3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/AllCreditos"/>
+
+    </TableRow>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_bt_iniciar_2"
+                android:id="@+id/agragar"
+                android:layout_margin="10dp"
+                android:text="Agregar"
+                android:textColor="@color/blanco"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_bt_iniciar_2"
+                android:id="@+id/eliminar"
+                android:layout_margin="10dp"
+                android:text="Eliminar"
+                android:textColor="@color/blanco"/>
+
+    </LinearLayout>
+
+</TableLayout>

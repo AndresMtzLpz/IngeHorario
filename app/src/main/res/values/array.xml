@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carreras">
+        <item> Circuitos Electricos</item>
+        <item>Administracion De Proyectos</item>
+        <item>Base De Datos</item>
+        <item>Sistemas Operativos</item>
+    </array>
+
+    <array name="planes">
+        <item>2016</item>
+        <item>2010</item>
+    </array>
+
+</resources>

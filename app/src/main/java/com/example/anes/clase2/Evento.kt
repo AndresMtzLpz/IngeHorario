@@ -6,9 +6,9 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_evento.*
+import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
-
+class Evento : AppCompatActivity() {
 
     var contador:Int = 0
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_evento)
 
         boton1.setOnLongClickListener{
-            Toast.makeText(this@MainActivity, "Funciono tu click", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@Evento, "Funciono tu click", Toast.LENGTH_SHORT).show()
             true
         }
     }
